@@ -1,33 +1,35 @@
-# System:
-Thumbs.db
-.DS_Store
-*.swp
-*~
-Desktop.ini
+# built application files
+*.apk
+*.ap_
 
-# Version Control Systems:
-.svn
-CVS
-.hg
-.bzr
+# files for the dex VM
+*.dex
 
-# Android:
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
 local.properties
-proguard/**
-target/**
-bin/**
-obj/**
-doc/**
-gen/**
-gdb.setup
-gdbserver
 
-# Eclipse:
-.settings
+# Eclipse project files
+.classpath
+.project
 
-# IntelliJ / Android Studio:
-idea/workspace.xml
-idea/tasks.xml
-
-# Crashlytics
-res/values/com_crashlytics_export_strings.xml
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+.DS_Store
+build
